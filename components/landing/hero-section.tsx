@@ -23,7 +23,7 @@ export default function HeroSection() {
       </div>
       <h1 className="bg-gradient-to-br from-white from-30% to-white/40 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-6xl md:text-7xl lg:text-8xl translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
         Nexus Dashboard
-        <br className="hidden md:block" />visualize your data
+        <br className="block" />visualize your data
       </h1>
       <p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
         Beautifully designed, dashboard for all your data and csv files
