@@ -4,6 +4,7 @@ import HeroSection from "@/components/landing/hero-section";
 import PricingSection from "@/components/landing/pricing-section";
 import Particles from "@/components/magicui/particles";
 import { SphereMask } from "@/components/magicui/sphere-mask";
+import { Benefits } from "@/components/scroller";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ClientSection />
       <SphereMask />
       <PricingSection />
+      <Benefits />
       <CallToActionSection />
       <Particles
         className="absolute inset-0 -z-10"

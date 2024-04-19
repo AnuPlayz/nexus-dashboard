@@ -17,13 +17,13 @@ export default function HeroSection() {
       className="relative mx-auto mt-32 max-w-[80rem] px-6 text-center md:px-8"
     >
       <div className="backdrop-filter-[12px] inline-flex h-7 items-center justify-between rounded-full border border-white/5 bg-white/10 px-3 text-xs text-white transition-all ease-in hover:cursor-pointer hover:bg-white/20 group gap-1 translate-y-[-1rem] animate-fade-in opacity-0">
-        <TextShimmer className="inline-flex items-center justify-center">
-          <span>✨ Introducing Nexus Dashboard</span>{" "}
+        <TextShimmer className="inline-flex items-center justify-center uppercase">
+          <span>✨ Introducing Nexus Visualize</span>{" "}
           <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </TextShimmer>
       </div>
-      <h1 className="bg-gradient-to-br from-white from-30% to-white/40 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-6xl md:text-7xl lg:text-8xl translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
-        Nexus Dashboard
+      <h1 className="bg-gradient-to-br uppercase from-white from-30% to-white/40 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-6xl md:text-7xl lg:text-8xl translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
+        Nexus Visualize
         <br className="block" />visualize your data
       </h1>
       <p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
