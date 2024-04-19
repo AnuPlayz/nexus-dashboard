@@ -5,7 +5,7 @@ import PricingSection from "@/components/landing/pricing-section";
 import Particles from "@/components/magicui/particles";
 import { SphereMask } from "@/components/magicui/sphere-mask";
 
-export default async function Page() {
+export default function Home() {
   return (
     <>
       <HeroSection />
