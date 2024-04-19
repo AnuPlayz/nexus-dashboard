@@ -18,7 +18,9 @@ export default function HeroSection() {
     >
       <div className="backdrop-filter-[12px] inline-flex h-7 items-center justify-between rounded-full border border-white/5 bg-white/10 px-3 text-xs text-white transition-all ease-in hover:cursor-pointer hover:bg-white/20 group gap-1 translate-y-[-1rem] animate-fade-in opacity-0">
         <TextShimmer className="inline-flex items-center justify-center">
-          <span>✨ Introducing Nexus Dashboard</span>{" "}
+          <Link href="http://localhost:3000/">
+            <span>✨ Introducing Nexus Dashboard</span>{" "}
+          </Link>
           <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </TextShimmer>
       </div>
@@ -32,7 +34,7 @@ export default function HeroSection() {
         data visualization.
       </p>
       <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-black opacity-0 ease-in-out [--animation-delay:600ms]">
-        <Link href="/signin">
+        <Link href="http://localhost:3000/">
           <span>Get Started for free </span>
         </Link>
         <ArrowRightIcon className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
