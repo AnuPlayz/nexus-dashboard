@@ -67,7 +67,7 @@ const content = [
 ];
 export function Benefits() {
   return (
-    <div className="p-10">
+    <div className="m-10 p-10">
       <StickyScroll content={content} />
     </div>
   );
