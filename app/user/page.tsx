@@ -17,7 +17,7 @@ export default function Dashboard() {
     }
     else {
         return (
-            <div className="flex flex-col items-center justify-center w-full h-screen mt-[64px] p-5">
+            <div className="flex flex-col items-center justify-center w-full h-screen mt-[64px] m-5">
                 <h1 className="text-2xl">Please sign in to access this page</h1>
                 <UserAuthForm />
             </div>
