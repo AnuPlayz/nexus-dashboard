@@ -18,7 +18,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
   async function onSignInGoogle() {
     setIsGitHubLoading(true);
-    signIn("google", { callbackUrl: 'http://localhost:3000/' });
+    signIn("google", { callbackUrl: '/user' });
     await new Promise((resolve) => setTimeout(resolve, 1000));
     setIsGitHubLoading(false);
   }
