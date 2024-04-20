@@ -1,16 +1,7 @@
 "use client"
-import { buttonVariants } from "@/components/ui/button";
 import { UserAuthForm } from "@/components/user-auth-form";
-import { cn } from "@/lib/utils";
-import { ChevronLeft } from "lucide-react";
-import { Metadata } from "next";
-import Link from "next/link";
-import { useSession, signIn, signOut } from "next-auth/react"
+import { useSession } from "next-auth/react"
 
-/*export const metadata: Metadata = {
-  title: "Login | Nexus Dashboard",
-  description: "Login to your account",
-};*/  
 
 export default function LoginPage() {
   const { data: session } = useSession();
