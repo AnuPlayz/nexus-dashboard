@@ -18,7 +18,7 @@ export default function Dashboard() {
         setResult(result as any);
     }
 
-    if (session && session.user) {
+    if (!session && !session.user) {
         return (
             <div className="mt-36">
                 <h1>Dashboard</h1>
